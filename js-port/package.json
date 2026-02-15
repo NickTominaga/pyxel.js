@@ -1,0 +1,22 @@
+{
+  "name": "pyxel-js-port",
+  "version": "0.2.0",
+  "description": "Node.js/Express + vanilla.js + Electron migration tooling for Python to JavaScript",
+  "main": "electron/main.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node backend/server.js",
+    "electron": "electron .",
+    "check": "node --check backend/server.js && node --check backend/pythonToJsConverter.js && node --check electron/main.js && node --check frontend/main.js",
+    "migrate:selected": "node scripts/migrate_selected.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "electron": "^33.2.1"
+  }
+}
