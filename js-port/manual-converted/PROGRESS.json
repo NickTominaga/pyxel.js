@@ -1,0 +1,19 @@
+{
+  "python_examples_total": 19,
+  "manual_converted_examples": 8,
+  "manual_example_coverage_percent": 42.1,
+  "manual_example_files": [
+    "01_hello_pyxel.js",
+    "05_color_palette.js",
+    "08_triangle_api.js",
+    "12_perlin_noise.js",
+    "13_custom_font.js",
+    "16_transform.js",
+    "18_audio_playback.js",
+    "99_flip_animation.js"
+  ],
+  "manual_wasm_files": [
+    "wasm/code-maker/main.js"
+  ],
+  "manual_total_files": 9
+}

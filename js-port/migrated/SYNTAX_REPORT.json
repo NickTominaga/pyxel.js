@@ -1,0 +1,313 @@
+{
+  "total": 59,
+  "passed": 8,
+  "failed": 51,
+  "failures": [
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/__init__.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/__init__.js:13",
+      "lineNumber": 13,
+      "lineText": "};"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/cli.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/cli.js:70",
+      "lineNumber": 70,
+      "lineText": "        let min_args = max_args - len(list(filter(lambda s: s.startswith(\"[\"), command[0])));"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/app.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/app.js:34",
+      "lineNumber": 34,
+      "lineText": "        let resource_file = os.path.abspath(resource_file);"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/canvas_panel.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/canvas_panel.js:40",
+      "lineNumber": 40,
+      "lineText": "        super().__init__(parent, 11, 16, 130, 130);"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/editor_base.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/editor_base.js:30",
+      "lineNumber": 30,
+      "lineText": "        super().__init__(parent, 0, 0, 0, 0, is_visible=false);"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/extensions.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/extensions.js:15",
+      "lineNumber": 15,
+      "lineText": "    x1, x2 = (x1, x2) if x1 < x2 else (x2, x1);"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/field_cursor.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/field_cursor.js:10",
+      "lineNumber": 10,
+      "lineText": "    def __init__(;"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/image_editor.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/image_editor.js:42",
+      "lineNumber": 42,
+      "lineText": "        super().__init__(parent);"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/image_viewer.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/image_viewer.js:37",
+      "lineNumber": 37,
+      "lineText": "        super().__init__(parent, 157, y, 66, height);"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/music_editor.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/music_editor.js:24",
+      "lineNumber": 24,
+      "lineText": "        super().__init__(parent);"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/music_field.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/music_field.js:27",
+      "lineNumber": 27,
+      "lineText": "        super().__init__(parent, x, y, 218, 21);"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/octave_bar.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/octave_bar.js:18",
+      "lineNumber": 18,
+      "lineText": "        super().__init__(parent, x, y, 4, 123);"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/piano_keyboard.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/piano_keyboard.js:47",
+      "lineNumber": 47,
+      "lineText": "        super().__init__(parent, 17, 25, 12, 123);"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/piano_roll.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/piano_roll.js:29",
+      "lineNumber": 29,
+      "lineText": "        super().__init__(parent, 30, 25, 193, 123);"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/settings.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/settings.js:9",
+      "lineNumber": 9,
+      "lineText": "let EDITOR_IMAGE = pyxel.Image.from_image(;"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/sound_editor.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/sound_editor.js:27",
+      "lineNumber": 27,
+      "lineText": "        super().__init__(parent);"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/sound_field.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/sound_field.js:37",
+      "lineNumber": 37,
+      "lineText": "        super().__init__(parent, 30, 149, 193, 23);"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/sound_selector.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/sound_selector.js:19",
+      "lineNumber": 19,
+      "lineText": "        super().__init__(parent, 11, 129, 218, 44);"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/tilemap_editor.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/tilemap_editor.js:37",
+      "lineNumber": 37,
+      "lineText": "        super().__init__(parent);"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/tilemap_viewer.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/tilemap_viewer.js:20",
+      "lineNumber": 20,
+      "lineText": "        super().__init__(parent, 157, 16, 66, 65);"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/widgets/button.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/widgets/button.js:24",
+      "lineNumber": 24,
+      "lineText": "    constructor(parent, x, y, width, height, **kwargs) {"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/widgets/color_picker.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/widgets/color_picker.js:18",
+      "lineNumber": 18,
+      "lineText": "    constructor(parent, x, y, value, *, with_shadow, **kwargs) {"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/widgets/image_button.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/widgets/image_button.js:19",
+      "lineNumber": 19,
+      "lineText": "    constructor(parent, x, y, *, img, u, v, **kwargs) {"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/widgets/image_toggle_button.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/widgets/image_toggle_button.js:20",
+      "lineNumber": 20,
+      "lineText": "    constructor(parent, x, y, *, img, u, v, is_checked, **kwargs) {"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/widgets/number_picker.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/widgets/number_picker.js:20",
+      "lineNumber": 20,
+      "lineText": "    constructor(parent, x, y, *, min_value, max_value, value, **kwargs) {"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/widgets/radio_button.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/widgets/radio_button.js:19",
+      "lineNumber": 19,
+      "lineText": "    constructor(parent, x, y, *, img, u, v, num_buttons, value, **kwargs) {"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/widgets/scroll_bar.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/widgets/scroll_bar.js:20",
+      "lineNumber": 20,
+      "lineText": "    def __init__(;"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/widgets/text_button.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/widgets/text_button.js:19",
+      "lineNumber": 19,
+      "lineText": "    constructor(parent, x, y, *, text, **kwargs) {"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/widgets/toggle_button.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/widgets/toggle_button.js:20",
+      "lineNumber": 20,
+      "lineText": "    constructor(parent, x, y, width, height, *, is_checked, **kwargs) {"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/widgets/widget.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor/widgets/widget.js:18",
+      "lineNumber": 18,
+      "lineText": "    let widget = null;"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/examples/02_jump_game.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/examples/02_jump_game.js:28",
+      "lineNumber": 28,
+      "lineText": "        this.floor = [(i * 60, pyxel.rndi(8, 104), true) for i in range(4)];"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/examples/03_draw_api.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/examples/03_draw_api.js:15",
+      "lineNumber": 15,
+      "lineText": "        pyxel.tilemaps[0].set(;"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/examples/04_sound_api.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/examples/04_sound_api.js:11",
+      "lineNumber": 11,
+      "lineText": "        pyxel.images[0].set(;"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/examples/05_color_palette.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/examples/05_color_palette.js:17",
+      "lineNumber": 17,
+      "lineText": "    if (col == 0) {"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/examples/06_click_game.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/examples/06_click_game.js:32",
+      "lineNumber": 32,
+      "lineText": "        this.pos = Vec2(;"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/examples/07_snake.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/examples/07_snake.js:58",
+      "lineNumber": 58,
+      "lineText": "        pyxel.init(;"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/examples/08_triangle_api.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/examples/08_triangle_api.js:29",
+      "lineNumber": 29,
+      "lineText": "            this.draw_triangle(*triangle);"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/examples/09_shooter.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/examples/09_shooter.js:72",
+      "lineNumber": 72,
+      "lineText": "        pyxel.sounds[snd1].set(*bgm[0]);"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/examples/10_platformer.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/examples/10_platformer.js:20",
+      "lineNumber": 20,
+      "lineText": "let WALL_TILES = [(u, v) for u in range(WALL_TILE_X, 32) for v in range(32)];"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/examples/11_offscreen.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/examples/11_offscreen.js:11",
+      "lineNumber": 11,
+      "lineText": "    for (const x_offset, y_offset of BORDER_OFFSETS) {"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/examples/12_perlin_noise.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/examples/12_perlin_noise.js:24",
+      "lineNumber": 24,
+      "lineText": "                let n = pyxel.noise(;"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/examples/13_custom_font.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/examples/13_custom_font.js:11",
+      "lineNumber": 11,
+      "lineText": "                pyxel.text(;"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/examples/14_synthesizer.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/examples/14_synthesizer.js:73",
+      "lineNumber": 73,
+      "lineText": "    for (const gain, detune of EXTENDED_CHANNELS) {"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/examples/15_tiled_map_file.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/examples/15_tiled_map_file.js:20",
+      "lineNumber": 20,
+      "lineText": "        pyxel.images[0] = pyxel.Image.from_image(;"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/examples/16_transform.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/examples/16_transform.js:30",
+      "lineNumber": 30,
+      "lineText": "        let rotate = pyxel.frame_count * -3;"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/examples/17_app_launcher.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/examples/17_app_launcher.js:55",
+      "lineNumber": 55,
+      "lineText": "        if pyxel.btnp(pyxel.KEY_UP, 15, 6) || pyxel.btnp(;"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/examples/18_audio_playback.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/examples/18_audio_playback.js:42",
+      "lineNumber": 42,
+      "lineText": "        pyxel.blt(;"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/python/pyxel/utils.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/python/pyxel/utils.js:51",
+      "lineNumber": 51,
+      "lineText": "                let module_path = os.path.join(;"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/wasm/apps/mml-studio/mml_studio.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/wasm/apps/mml-studio/mml_studio.js:10",
+      "lineNumber": 10,
+      "lineText": "function jsVar(name, default) {"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/wasm/gamepad.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/wasm/gamepad.js:149",
+      "lineNumber": 149,
+      "lineText": "            menu_image.blt(;"
+    },
+    {
+      "file": "/workspace/pyxel.js/js-port/migrated/wasm/import_hook.js",
+      "stderr": "/workspace/pyxel.js/js-port/migrated/wasm/import_hook.js:18",
+      "lineNumber": 18,
+      "lineText": "        if (;"
+    }
+  ]
+}

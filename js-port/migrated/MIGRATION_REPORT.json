@@ -1,0 +1,32 @@
+[
+  {
+    "key": "pyxel-examples",
+    "sourceDir": "/workspace/pyxel.js/python/pyxel/examples",
+    "outputDir": "/workspace/pyxel.js/js-port/migrated/python/pyxel/examples",
+    "count": 19
+  },
+  {
+    "key": "pyxel-top-level",
+    "sourceDir": "/workspace/pyxel.js/python/pyxel",
+    "outputDir": "/workspace/pyxel.js/js-port/migrated/python/pyxel",
+    "count": 4
+  },
+  {
+    "key": "pyxel-editor",
+    "sourceDir": "/workspace/pyxel.js/python/pyxel/editor",
+    "outputDir": "/workspace/pyxel.js/js-port/migrated/python/pyxel/editor",
+    "count": 32
+  },
+  {
+    "key": "wasm-selected",
+    "sourceDir": "/workspace/pyxel.js/wasm",
+    "outputDir": "/workspace/pyxel.js/js-port/migrated/wasm",
+    "count": 2
+  },
+  {
+    "key": "wasm-apps",
+    "sourceDir": "/workspace/pyxel.js/wasm",
+    "outputDir": "/workspace/pyxel.js/js-port/migrated/wasm/apps",
+    "count": 2
+  }
+]

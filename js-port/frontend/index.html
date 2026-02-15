@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pyxel Python→JavaScript Migrator</title>
+    <style>
+      body { font-family: sans-serif; margin: 20px; background: #111; color: #eee; }
+      textarea, input, button { width: 100%; box-sizing: border-box; margin-top: 8px; }
+      textarea { min-height: 160px; background: #1e1e1e; color: #f5f5f5; border: 1px solid #333; padding: 8px; }
+      input, button { padding: 10px; border: 1px solid #333; background: #1e1e1e; color: #fff; }
+      button { cursor: pointer; }
+      .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+      .card { border: 1px solid #333; padding: 12px; }
+      pre { background: #1e1e1e; border: 1px solid #333; padding: 8px; white-space: pre-wrap; min-height: 140px; }
+    </style>
+  </head>
+  <body>
+    <h1>Pyxel Python → JavaScript 変換ツール</h1>
+    <p>バックエンドはREST APIのみで動作します。</p>
+
+    <div class="grid">
+      <section class="card">
+        <h2>1) 単一コード変換</h2>
+        <textarea id="pythonCode" placeholder="Pythonコードを貼り付け"></textarea>
+        <button id="convertButton">/api/convert を実行</button>
+      </section>
+
+      <section class="card">
+        <h2>2) ディレクトリ一括変換</h2>
+        <input id="sourceDir" placeholder="例: /workspace/pyxel.js/python" />
+        <input id="outputDir" placeholder="例: /workspace/pyxel.js/js-port/migrated/python" />
+        <button id="migrateButton">/api/migrate を実行</button>
+      </section>
+    </div>
+
+    <h2>レスポンス</h2>
+    <pre id="output">Ready.</pre>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

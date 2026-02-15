@@ -1,0 +1,19 @@
+// Auto-generated from widgets/settings.py
+// NOTE: Manual review required for runtime parity.
+
+let WIDGET_HOLD_TIME = 16;
+let WIDGET_REPEAT_TIME = 2;
+let WIDGET_CLICK_TIME = 5;
+let WIDGET_CLICK_DIST = 3;
+let WIDGET_PANEL_COLOR = 1;
+let WIDGET_BACKGROUND_COLOR = 7;
+let WIDGET_SHADOW_COLOR = 13;
+
+let BUTTON_ENABLED_COLOR = 12;
+let BUTTON_DISABLED_COLOR = 5;
+let BUTTON_PRESSED_COLOR = 7;
+let BUTTON_TEXT_COLOR = 1;
+let BUTTON_PRESSING_TIME = 4;
+
+let INPUT_TEXT_COLOR = 1;
+let INPUT_FIELD_COLOR = 10;

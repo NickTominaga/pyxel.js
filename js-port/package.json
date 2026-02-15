@@ -1,0 +1,24 @@
+{
+  "name": "pyxel-js-port",
+  "version": "0.2.0",
+  "description": "Node.js/Express + vanilla.js + Electron migration tooling for Python to JavaScript",
+  "main": "electron/main.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node backend/server.js",
+    "electron": "electron .",
+    "check": "node --check backend/server.js && node --check backend/pythonToJsConverter.js && node --check electron/main.js && node --check frontend/main.js",
+    "migrate:selected": "node scripts/migrate_selected.js",
+    "migrate:validate": "node scripts/validate_migrated.js",
+    "manual:check": "node --check manual-converted/pyxel/examples/01_hello_pyxel.js && node --check manual-converted/pyxel/examples/05_color_palette.js && node --check manual-converted/pyxel/examples/08_triangle_api.js && node --check manual-converted/pyxel/examples/12_perlin_noise.js && node --check manual-converted/pyxel/examples/13_custom_font.js && node --check manual-converted/pyxel/examples/16_transform.js && node --check manual-converted/pyxel/examples/18_audio_playback.js && node --check manual-converted/pyxel/examples/99_flip_animation.js && node --check manual-converted/wasm/code-maker/main.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "electron": "^33.2.1"
+  }
+}
