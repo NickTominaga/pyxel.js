@@ -1,0 +1,17 @@
+[
+  {
+    "sourceDir": "/workspace/pyxel.js/python/pyxel/examples",
+    "outputDir": "/workspace/pyxel.js/js-port/migrated/python/pyxel/examples",
+    "count": 19
+  },
+  {
+    "sourceDir": "/workspace/pyxel.js/python/pyxel",
+    "outputDir": "/workspace/pyxel.js/js-port/migrated/python/pyxel",
+    "count": 4
+  },
+  {
+    "sourceDir": "/workspace/pyxel.js/wasm",
+    "outputDir": "/workspace/pyxel.js/js-port/migrated/wasm",
+    "count": 2
+  }
+]
